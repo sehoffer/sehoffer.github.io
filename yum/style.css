@@ -49,10 +49,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-h1{color:purple;
-}
-
 
 /* END RESET */
+
+h1{color:purple;
+	font-size:2em;
+}
 
 
