@@ -52,8 +52,16 @@ table {
 
 /* END RESET */
 
-h1{color:purple;
-	font-size:2em;
-}
+body {font-family:Verdana;}
+
+h2 {font-size:16px;
+	color:white;
+	text-align:right;
+	background-color:black;
+	padding:5px 5px 5px 20px;
+	margin:5px 0px;}
+
+p,li {font-size:14px;
+	margin:15px 0px;}
 
 
