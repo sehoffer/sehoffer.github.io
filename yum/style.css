@@ -54,15 +54,25 @@ table {
 
 body {font-family:Verdana;}
 
+h1 {font-size:20px;
+	margin:15px 20px;
+	background-color:white;
+	border-top:1px solid black;
+	border-right:0px;
+	border-bottom:1px solid black;
+	border-left:0px;
+	text-align:center;
+	padding:5px;}
+
 h2 {font-size:16px;
 	color:white;
 	text-align:right;
 	background-color:black;
-	padding:5px 5px 5px 20px;
+	padding:5px 30px;
 	margin:5px 0px;}
 
 p,li {font-size:14px;
-	margin:15px 0px;}
+	margin:15px 20px;}
 
 .left {float:left;
 		width:50%;}
