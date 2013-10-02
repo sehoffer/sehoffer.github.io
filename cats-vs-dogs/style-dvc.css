@@ -53,37 +53,54 @@ table {
 
 /* END RESET */
 
-body {font-family:Helvetica;}
+body {font-family:Georgia;}
 
-p {font-size:18px;
-	margin:10px 0px;}
+p {font-size:14px;
+	margin:10px 0px;
+	line-height:1.2em;}
 
-h1 {font-size:25px;
-	font-weight:bold;}
-
-h2 {font-size:14px;
-	color:gray;}
-
-img {float:left;
-	width:200px;
-	margin:0px 15px 2px 0px;}
+h2 {font-size:24px;}
 
 article {float:left;
 		width:700px;
-		margin:20px;}
+		margin:10px;}
 
+img {width:400px;}
 
+ul {list-style:none;
+	border-top:3px;
+	border-bottom:3px;
+	border-right:0px;
+	border-left:0px;
+	border-style:solid;
+	border-color:black;
+	margin:5px;
+	padding:20px;}
 
+a {text-decoration:none;
+	color:black;}
 
+li {float:right;
+	margin-left:30px;
+	margin-right:30px;
+	font-weight:bold}
 
+.top-nav {font-weight:bold;
+			font-size:24px;}
 
+#logo-head h1 a {display:block;  
+ 				width:450px; 
+ 				height:100px;  
+ 				background:url(images/dogvscat-logo.gif) no-repeat top center; 
+ 				text-indent:-9999px;}
 
+#bottom-right {text-align:right;
+				margin:10px;}
 
+#bottom-left {text-align:left;
+			margin:10px;}
 
-
-
-
-
+#main-text {width:400px}
 
 
 
