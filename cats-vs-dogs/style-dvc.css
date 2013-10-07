@@ -53,7 +53,9 @@ table {
 
 /* END RESET */
 
-body {font-family:Georgia;}
+body {font-family:Georgia;
+		margin:0 auto;
+  		width:100%;}
 
 p {font-size:14px;
 	margin:10px 0px;
@@ -65,7 +67,7 @@ h2 {font-size:20px;
 
 article {float:left;
 		width:45%;
-		margin:2%;}
+		margin:8% 2% 2% 2%;}
 
 img {width:100%;}
 
@@ -73,9 +75,15 @@ a {text-decoration:none;
 	color:black;}
 
 li {float:left;
-	margin:0px 50px;}
+	margin:0% 2%;}
 
-footer {position:relative;bottom:0px;
+nav {position:relative;}
+
+ul {position:absolute;
+	width:100%;}
+
+footer {clear:both;
+		position:relative;
 		border-top:3px solid black;}
 
 .top-nav {list-style:none;
@@ -84,7 +92,7 @@ footer {position:relative;bottom:0px;
 			border-style:solid;
 			border-color:black;
 			margin:5px;
-			padding:20px;
+			padding:5px;
 			font-weight:bold;
 			font-size:24px;}
 
@@ -92,15 +100,18 @@ footer {position:relative;bottom:0px;
  				width:450px; 
  				height:100px;  
  				background:url(images/dogvscat-logo.gif) no-repeat top center; 
- 				text-indent:-9999px;}
+ 				text-indent:-9999px;
+ 				margin:20px;}
 
 #bottom-left {font-size:11px;
-				position:absolute;bottom:0px;left:0px;
-				margin:2%;}
+				position:absolute;bottom:10px;left:10px;
+				margin:2%;
+				top:0px;}
 
 #bottom-right {font-size:11px;
-				position:absolute;bottom:0px;right:0px;
-				margin:2%;}
+				position:absolute;bottom:10px;right:20px;
+				margin:2%;
+				top:0px;}
 
 #bottom-left a {color:red;}
 
