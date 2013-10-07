@@ -62,7 +62,7 @@ p {font-size:14px;
 h2 {font-size:24px;}
 
 article {float:left;
-		width:700px;
+		width:400px;
 		margin:10px;}
 
 img {width:400px;}
@@ -70,8 +70,6 @@ img {width:400px;}
 ul {list-style:none;
 	border-top:3px;
 	border-bottom:3px;
-	border-right:0px;
-	border-left:0px;
 	border-style:solid;
 	border-color:black;
 	margin:5px;
@@ -80,7 +78,7 @@ ul {list-style:none;
 a {text-decoration:none;
 	color:black;}
 
-li {float:right;
+li {float:left;
 	margin-left:30px;
 	margin-right:30px;
 	font-weight:bold}
@@ -100,7 +98,6 @@ li {float:right;
 #bottom-left {text-align:left;
 			margin:10px;}
 
-#main-text {width:400px}
 
 
 
