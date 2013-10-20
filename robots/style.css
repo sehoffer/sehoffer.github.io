@@ -50,3 +50,109 @@ table {
 	border-spacing: 0;
 }
 
+/* End Reset */
+
+body {font-family:Helvetica;
+		font-size:12px;
+		line-height:1.2em;}
+
+#page h1 {color:rgb(100,70,20);
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;}
+
+h2 {color:rgb(100,70,20);
+	font-size:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:25px;
+	margin-top:10px;}
+
+#site-header {background-color:beige;
+				position:relative;
+				height:125px;}
+
+#site-header h1 a {display:block;  
+ 					width:306px; 
+ 					height:123px;  
+					background:url(images/logo.png) no-repeat top left; 
+ 					text-indent:-9999px;
+ 					background-color:beige;
+ 					margin:0px 50px;}
+
+#top-nav {position:absolute;top:20px;right:20px;}
+
+#top-nav a {text-decoration:none;
+			color:rgb(100,70,20);}
+
+#main-menu {background-color:rgb(100,70,20);
+			height:25px;}
+
+#main-menu li {float:left;
+				margin:.5% 0% .5% 5%;
+				text-transform:uppercase;}
+
+#main-menu li a {text-decoration:none;
+				color:white;}
+
+#content-wrapper {position:relative;}
+
+#page {position:absolute;
+		left:5%;
+		top:80px;
+		width:55%;}
+
+#sidebar {position:absolute;
+			width:25%;
+			right:5%;
+			top:80px;}
+
+#sidebar h1 {color:rgb(100,70,20);
+			font-size:18px;
+			font-weight:bold;
+			margin-bottom:10px;
+			text-transform:uppercase;}
+
+#sidebar img {width:100%;}
+
+#sidebar li {line-height:20px;}
+
+#sidebar li a {text-decoration:none;
+				color:rgb(100,70,20);}
+
+#footer-wrapper {clear:both;
+				position:relative;
+				top:600px;
+				clear:both;
+				background-color:rgb(100,70,20);}
+
+#footer-wrapper h1 {color:black;
+					font-size:18px;
+					font-weight:bold;
+					text-transform:uppercase;
+					line-height:25px;}
+
+#footer-contact {position:absolute;
+				top:10px;
+				left:50px;}
+
+#footer-contact p {width:20%;}
+
+#footer-follow {position:absolute;
+				top:5px; 
+				right:80px;}
+
+#footer-follow li {float:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+

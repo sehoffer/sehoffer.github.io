@@ -85,4 +85,5 @@ p,li {font-size:14px;
  					height:80px;  
  					background:url(images/recipe-title.jpg) no-repeat top center; 
  					text-indent:-9999px;
- 					background-size:150px}
+ 					background-size:150px;
+ 					text-transform:rotate(-45deg);}
