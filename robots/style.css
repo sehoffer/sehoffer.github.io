@@ -130,28 +130,29 @@ h2 {color:rgb(100,70,20);
 #sidebar li a {text-decoration:none;
 				color:rgb(100,70,20);}
 
-#footer-wrapper {margin:0 auto;
-				width:960px;
-				clear:both;
-				position:relative;
-				top:600px;
-				background-color:blue;}
+#footer-wrapper {width:100%;
+				height:170px;
+				background-color:rgb(100,70,20);
+				position:fixed;
+				bottom:0px;}
 
-#footer-wrapper h1 {color:black;
+#footer-wrapper h1 {color:beige;
 					font-size:18px;
 					font-weight:bold;
 					text-transform:uppercase;
 					line-height:25px;}
 
-#footer-contact {position:absolute;
-				top:10px;
-				left:0px;}
+#site-footer {margin:0 auto;
+				width:960px;}
 
-#footer-contact p {width:20%;}
+#footer-contact {float:left;
+				margin-top:10px;}
 
-#footer-follow {position:absolute;
-				top:5px; 
-				right:80px;}
+#footer-contact p {width:20%;
+					color:white;}
+
+#footer-follow {float:right;
+				margin-top:10px;}
 
 #footer-follow img {width:90%;
 					margin-top:5px;}
