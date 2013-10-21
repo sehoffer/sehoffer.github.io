@@ -51,50 +51,11 @@ table {
 }
 
 
-/* END RESET */
+/* --------------------------------- END RESET ----------------------------------------- */
 
 body {font-family:Georgia;
 		margin:0 auto;
-  		width:100%;}
-
-p {font-size:14px;
-	margin:10px 0px;
-	line-height:1.3em;}
-
-h2 {font-size:20px;
-	margin-top:10px;
-	font-weight:bold;}
-
-article {float:left;
-		width:45%;
-		margin:8% 2% 2% 2%;}
-
-img {width:100%;}
-
-a {text-decoration:none;
-	color:black;}
-
-li {float:left;
-	margin:0% 2%;}
-
-nav {position:relative;}
-
-ul {position:absolute;
-	width:100%;}
-
-footer {clear:both;
-		position:relative;
-		border-top:3px solid black;}
-
-.top-nav {list-style:none;
-			border-top:3px;
-			border-bottom:3px;
-			border-style:solid;
-			border-color:black;
-			margin:5px;
-			padding:5px;
-			font-weight:bold;
-			font-size:24px;}
+  		width:1000px;}
 
 #logo-head h1 a {display:block;  
  				width:450px; 
@@ -103,19 +64,53 @@ footer {clear:both;
  				text-indent:-9999px;
  				margin:20px;}
 
-#bottom-left {font-size:11px;
-				position:absolute;bottom:10px;left:10px;
-				margin:2%;
-				top:0px;}
+li {float:left;
+	margin:0px 10px;
+	text-transform:uppercase;}
 
-#bottom-right {font-size:11px;
-				position:absolute;bottom:10px;right:20px;
-				margin:2%;
-				top:0px;}
+a {text-decoration:none;
+	color:black;}
 
-#bottom-left a {color:red;}
+header {position:relative;}
 
-#bottom-right a {color:red;}
+ul {position:absolute;
+  	width:100%;}
+
+nav {list-style:none;
+	border-top:3px;
+	border-bottom:3px;
+	border-style:solid;
+	border-color:black;
+	padding:5px 40px 25px 130px;
+	font-weight:bold;
+	font-size:24px;}
+
+article {float:left;
+		width:48%;
+		margin:2% 1%;}
+
+p {font-size:16px;
+	margin:10px 0px;
+	line-height:1.3em;}
+
+h2 {font-size:20px;
+	margin-top:10px;
+	font-weight:bold;}
+
+article img {width:100%;}
+
+footer {clear:both;
+		border-top:3px solid black;}
+
+#bottom-left {float:left;
+				margin:1%;
+				font-size:13px;}
+
+#bottom-right {float:right;
+				margin:1%;
+				font-size:13px;}
+
+#bottom-left a,#bottom-right a {color:rgb(255,10,150);}
 
 
 
