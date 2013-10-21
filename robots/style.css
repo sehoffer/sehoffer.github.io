@@ -56,11 +56,6 @@ body {font-family:Helvetica;
 		font-size:12px;
 		line-height:1.2em;}
 
-#page h1 {color:rgb(100,70,20);
-	font-size:25px;
-	font-weight:bold;
-	text-transform:uppercase;}
-
 h2 {color:rgb(100,70,20);
 	font-size:18px;
 	font-weight:bold;
@@ -102,6 +97,11 @@ h2 {color:rgb(100,70,20);
 		top:80px;
 		width:55%;}
 
+#page h1 {color:rgb(100,70,20);
+		font-size:25px;
+		font-weight:bold;
+		text-transform:uppercase;}
+
 #sidebar {position:absolute;
 			width:25%;
 			right:5%;
@@ -123,8 +123,7 @@ h2 {color:rgb(100,70,20);
 #footer-wrapper {clear:both;
 				position:relative;
 				top:600px;
-				clear:both;
-				background-color:rgb(100,70,20);}
+				background-color:blue;}
 
 #footer-wrapper h1 {color:black;
 					font-size:18px;
