@@ -222,17 +222,21 @@ h3 {font-family:roboto_condensedregular;
 #aboutmepage {margin:10px;}
 
 #me {float:left;
-		width:100%;}
+		width:100%;
+		margin:5px;}
 
 #info {font-family:robotolight;
 			font-size:15px;
+			line-height:1.3em;
 			float:left;
-			width:450px;}
+			width:400px;
+			margin:5px;}
 
 #contact {font-family:robotolight;
 			font-size:15px;
 			float:left;
-			width:50px;}
+			width:140px;
+			margin:5px;}
 
 #hello {font-family:roboto_condensedregular;
 		font-size:16px;}
