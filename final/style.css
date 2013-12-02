@@ -196,7 +196,7 @@ h3 {font-family:roboto_condensedregular;
 
 .work {margin:10px;}
 
-.images {float:left;
+.images, .slides {float:left;
 		width:600px;
 		margin:10px 5px;}
 
@@ -240,6 +240,18 @@ h3 {font-family:roboto_condensedregular;
 
 #hello {font-family:roboto_condensedregular;
 		font-size:16px;}
+
+/* -------------------- slider -------------------------- */
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;}
 
 
 

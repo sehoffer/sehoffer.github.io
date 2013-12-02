@@ -3,6 +3,10 @@
 <head>
   <title>sehoffer</title>
   <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/slider/jquery.slides.min.js"></script>
+
 </head>
   <body>
 
@@ -20,9 +24,9 @@
     </div>
     
     <section class='work'>
-
-      <article class='images'>
-        <img alt='elementsofstyle' src='images/elementsofstyle_cover2.jpg'/>
+      <div class='container'>
+      <article class='slides'>
+        <img alt='elementsofstyle' src='images/elementsofstyle_0.jpg'/>
         <img alt='elementsofstyle' src='images/elementsofstyle_1.jpg'/>
         <img alt='elementsofstyle' src='images/elementsofstyle_2.jpg'/>
         <img alt='elementsofstyle' src='images/elementsofstyle_3.jpg'/>
@@ -32,18 +36,20 @@
         <img alt='elementsofstyle' src='images/elementsofstyle_7.jpg'/>
         <img alt='elementsofstyle' src='images/elementsofstyle_8.jpg'/>
         <img alt='elementsofstyle' src='images/elementsofstyle_9.jpg'/>
-        <img alt='elementsofstyle' src='images/elementsofstyle_cover.jpg'/>
+        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
       </article>
+      </div>
 
       <article class='info'>
         <h3>The Elements of Style</h3>
-        <p>My re-design for "The Elements of Style" by William Strunk Jr.</p>
+        <p>My re-design for "The Elements of Style" by William Strunk Jr. Displaying cover and pages 1-17.Total page count:102</p>
         <p>Dimensions:7.5"x10"</p> 
         <p>Typefaces:Rockwell, Adobe Garamond Pro</p>
         <nav class='nextpage'>
           <ul>
            <li><a href='songposter.html'>&#60 Song Poster</a></li>
-           <li><a href='fruitlands.html'>Fruitlands &#62</a></li>
+           <li><a href='app.html'>100 Books App &#62</a></li>
           </ul>
         </nav>
       </article>
@@ -55,6 +61,15 @@
       <p>copyright &copy; 2013 Sarah Hoffer</p>
     </footer>
     </div>
+
+  <script>
+    $(function(){
+      $(".slides").slidesjs({
+        width: 600,
+        height: 410
+      });
+    });
+  </script>
   
   </body>
 </html>
