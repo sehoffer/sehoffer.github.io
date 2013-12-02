@@ -127,7 +127,7 @@ header nav li a {float:right;
 			font-size:16px;
 			line-height:2.1em;
 			background-color:lightgrey;
-			width:90px;
+			width:100px;
 			height:110px;
 			margin-top:20px;
 			padding-top:8px;
@@ -136,13 +136,16 @@ header nav li a {float:right;
 
 #thumbnails1 {width:650px;
 			padding:0px 5px 10px 20px;
+			margin-top:-25px;
 			float:left;}
 
 #thumbnailstwo {width:650px;
-				padding:0px 5px 10px 235px;}
+				padding:0px 5px 10px 235px;
+				margin-top:-25px;}
 
 #thumbnailsthree {width:650px;
-				padding:0px 5px 10px 235px;}
+				padding:0px 5px 10px 235px;
+				margin-top:-25px;}
 
 img {margin:0px 5px 10px 5px;
 	border:1px solid lightgrey;}
@@ -158,7 +161,7 @@ h2 {font-family:robotoregular;
 #screenline {background-color:rgb(235,235,235);
 			width:100%;
 			height:25px;
-			margin:669px 0px 0px 0px;}
+			margin:639px 0px 0px 0px;}
 
 #ceramicsline {background-color:rgb(235,235,235);
 			width:100%;
@@ -213,6 +216,21 @@ h3 {font-family:roboto_condensedregular;
 		position:fixed;
 		left:625px;}
 
+.info-box {position:relative;
+			width:325px;
+			height:300px;
+			left:620px;
+			top:10px;
+			background-color:lightgrey;}
+
+#right {position:absolute;
+		right:5px;
+		bottom:5px:;}
+
+#left {position:absolute;
+		left:5px;
+		bottom:5px:;}
+
 .nextpage {font-family:robotolight_italic;
 			font-size:13px;
 			margin-top:10px;}
@@ -221,22 +239,22 @@ h3 {font-family:roboto_condensedregular;
 
 #aboutmepage {margin:10px;}
 
-#me {float:left;
-		width:100%;
-		margin:5px;}
+#me img {float:left;}
+
+#me {margin:5px 5px;}
 
 #info {font-family:robotolight;
 			font-size:15px;
 			line-height:1.3em;
 			float:left;
 			width:400px;
-			margin:5px;}
+			margin:5px 10px;}
 
 #contact {font-family:robotolight;
 			font-size:15px;
 			float:left;
 			width:140px;
-			margin:5px;}
+			margin:5px 10px;}
 
 #hello {font-family:roboto_condensedregular;
 		font-size:16px;}
@@ -252,6 +270,16 @@ h3 {font-family:roboto_condensedregular;
       background-position: 0 0;
       float: left;
       overflow: hidden;}
+
+    .slidesjs-previous {font-family:roboto_condensedregular;
+    					position:absolute;
+    					top:560px;
+    					left:30px;}
+
+    .slidesjs-next {font-family:roboto_condensedregular;
+    					position:absolute;
+    					top:560px;
+    					left:570px;}
 
 
 
