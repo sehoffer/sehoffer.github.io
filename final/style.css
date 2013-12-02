@@ -122,17 +122,12 @@ header nav li a {float:right;
 		top:50px;
 		left:157.3px}
 
-#worknav {font-family:robotoregular;
-			float:left;
-			font-size:16px;
-			line-height:2.1em;
-			background-color:lightgrey;
-			width:100px;
-			height:110px;
-			margin-top:20px;
-			padding-top:8px;
-			padding-left:15px;
-			position:fixed;}
+.bar {width:168px;
+		height:5px;
+		position:absolute;
+		top:81.5px;
+		left:0px;
+		background-color:black}
 
 #thumbnails1 {width:650px;
 			padding:0px 5px 10px 20px;
@@ -191,6 +186,11 @@ footer p {font-family:robotoregular;
 			bottom:20px;
 			right:85px;}
 
+.portfolio img:hover {opacity:0.6;}
+
+a:link {color:black;}
+a:visited {color:black;}
+
 /* -------------------- work pages -------------------------- */
 
 h3 {font-family:roboto_condensedregular;
@@ -199,41 +199,42 @@ h3 {font-family:roboto_condensedregular;
 
 .work {margin:10px;}
 
-.images, .slides {float:left;
-		width:600px;
-		margin:10px 5px;}
+.images, .slides, .appimages {float:left;
+								width:700px;
+								margin:10px 5px;}
 
-.images img {margin:0px 0px 10px 0px;}
+.appimages img {border:0px;
+				margin:0px 70px;}
+
+.images img {width:700px;
+				margin:0px 0px 10px 0px;}
 
 .info {font-family:robotolight;
 		font-size:15px;
 		line-height:1.3em; 
 		float:left;
-		width:300px;
+		width:250px;
+		height:230px;
 		margin:10px 5px;
 		background-color:lightgrey;
 		padding:10px;
 		position:fixed;
-		left:625px;}
-
-.info-box {position:relative;
-			width:325px;
-			height:300px;
-			left:620px;
-			top:10px;
-			background-color:lightgrey;}
+		left:725px;}
 
 #right {position:absolute;
-		right:5px;
+		right:20px;
 		bottom:5px:;}
 
 #left {position:absolute;
-		left:5px;
+		left:0px;
 		bottom:5px:;}
 
 .nextpage {font-family:robotolight_italic;
 			font-size:13px;
-			margin-top:10px;}
+			margin-top:10px;
+			position:absolute;
+			width:270px;
+			bottom:30px;}
 
 /* -------------------- about me -------------------------- */
 
@@ -273,13 +274,14 @@ h3 {font-family:roboto_condensedregular;
 
     .slidesjs-previous {font-family:roboto_condensedregular;
     					position:absolute;
-    					top:560px;
+    					top:630px;
     					left:30px;}
 
     .slidesjs-next {font-family:roboto_condensedregular;
     					position:absolute;
-    					top:560px;
-    					left:570px;}
+    					top:630px;
+    					left:680px;}
+
 
 
 
