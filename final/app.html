@@ -3,6 +3,10 @@
 <head>
   <title>sehoffer</title>
   <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/slider/jquery.slides.min.js"></script>
+
 </head>
   <body>
 
@@ -21,8 +25,8 @@
     </div>
     
     <section class='work'>
-
-      <article class='appimages'>
+      <div class='container'>
+      <article class='slides'>
         <img alt='app' src='images/app_1.jpg'/>
         <img alt='app' src='images/app_2.jpg'/>
         <img alt='app' src='images/app_3.jpg'/>
@@ -32,6 +36,7 @@
         <img alt='app' src='images/app_7.jpg'/>
         <img alt='app' src='images/app_8.jpg'/>
       </article>
+    </div>
 
       <article class='info'>
         <h3>100 Books App</h3>
@@ -53,6 +58,15 @@
       <p>copyright &copy; 2013 Sarah Hoffer</p>
     </footer>
   </div>
+
+    <script>
+    $(function(){
+      $(".slides").slidesjs({
+        width: 600,
+        height: 560
+      });
+    });
+  </script>
 
   </body>
 </html>

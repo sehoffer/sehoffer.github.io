@@ -3,6 +3,10 @@
 <head>
   <title>sehoffer</title>
   <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/slider/jquery.slides.min.js"></script>
+
 </head>
   <body>
 
@@ -21,17 +25,18 @@
     </div>
     
     <section class='work'>
-
-      <article class='images'>
+      <div class='container'>
+      <article class='slides'>
         <img alt='photo' src='images/ethics_1.jpg'/>
         <img alt='photo' src='images/ethics_2.jpg'/>
         <img alt='photo' src='images/ethics_3.jpg'/>
         <img alt='photo' src='images/ethics_4.jpg'/>
       </article>
+    </div>
 
       <article class='info'>
         <h3>Photography</h3>
-        <p>A diptic photo project relating the visual similarities between nature and the city.</p>
+        <p>A series of diptic photos relating the visual similarities between nature and the city.</p>
         <p>Dimensions:8"x10"</p>
         <nav class='nextpage'>
           <ul>
@@ -48,6 +53,15 @@
       <p>copyright &copy; 2013 Sarah Hoffer</p>
     </footer>
     </div>
+
+      <script>
+    $(function(){
+      $(".slides").slidesjs({
+        width: 600,
+        height: 410
+      });
+    });
+  </script>
 
   </body>
 </html>

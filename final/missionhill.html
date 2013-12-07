@@ -3,6 +3,10 @@
 <head>
   <title>sehoffer</title>
   <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/slider/jquery.slides.min.js"></script>
+
 </head>
   <body>
 
@@ -21,9 +25,9 @@
     </div>
     
     <section class='work'>
-
-      <article class='images'>
-        <img alt='timeline' src='images/missionhill_1.jpg'/>
+      <div class='container'>
+      <article class='slides'>
+        <img alt='timeline' src='images/missionhill_cover.jpg'/>
         <img alt='timeline' src='images/missionhill_2.jpg'/>
         <img alt='timeline' src='images/missionhill_3.jpg'/>
         <img alt='timeline' src='images/missionhill_4.jpg'/>
@@ -31,8 +35,8 @@
         <img alt='timeline' src='images/missionhill_6.jpg'/>
         <img alt='timeline' src='images/missionhill_7.jpg'/>
         <img alt='timeline' src='images/missionhill_8.jpg'/>
-        <img alt='timeline' src='images/missionhill_9.jpg'/>
       </article>
+    </div>
 
       <article class='info'>
         <h3>Mission Hill: A History</h3>
@@ -54,6 +58,15 @@
       <p>copyright &copy; 2013 Sarah Hoffer</p>
     </footer>
     </div>
+
+      <script>
+    $(function(){
+      $(".slides").slidesjs({
+        width: 600,
+        height: 330
+      });
+    });
+  </script>
 
   </body>
 </html>
