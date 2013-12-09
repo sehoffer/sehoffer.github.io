@@ -114,6 +114,9 @@ header nav li a {float:right;
 				padding-left:40px;
 				padding-top:95px;}
 
+.resume a {target-name:new;
+			target-new:tab;}
+
 #sarah {position:absolute;
 		top:15px;
 		left:25px}
