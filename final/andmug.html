@@ -3,6 +3,10 @@
 <head>
   <title>sehoffer</title>
   <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/slider/jquery.slides.min.js"></script>
+
 </head>
   <body>
 
@@ -19,10 +23,10 @@
       </nav>
     </header>
     </div>
-    
     <section class='work'>
-
-      <article class='images'>
+    
+    <div class='container'>
+      <article class='slides'>
         <img alt='front' src='images/andmug_top.jpg'/>
         <img alt='side' src='images/andmug_side.jpg'/>
       </article>
@@ -47,6 +51,16 @@
       <p>copyright &copy; 2013 Sarah Hoffer</p>
     </footer>
   </div>
+</div>
+
+      <script>
+    $(function(){
+      $(".slides").slidesjs({
+        width: 700,
+        height: 500
+      });
+    });
+  </script>
 
   </body>
 </html>
