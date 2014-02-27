@@ -97,6 +97,10 @@ body {width:100%;}
 #headband {width:100%;
 			background-color:lightgrey;}
 
+#name {position:absolute;
+		left:20px;
+		top:50px;}
+
 header {position:relative;
 		width:930px;
 		height:130px;}
@@ -112,25 +116,10 @@ header nav {font-family:robotolight;
 
 header nav li a {float:right;
 				padding-left:40px;
-				padding-top:95px;}
+				padding-top:90px;}
 
 .resume a {target-name:new;
 			target-new:tab;}
-
-#sarah {position:absolute;
-		top:15px;
-		left:25px}
-
-#hoffer {position:absolute;
-		top:50px;
-		left:157.3px}
-
-.bar {width:168px;
-		height:5px;
-		position:absolute;
-		top:81.5px;
-		left:0px;
-		background-color:black}
 
 .thumbnails {width:650px;
 			padding:0px 5px 10px 20px;
