@@ -248,6 +248,11 @@ h3 {font-family:roboto_condensedregular;
 #hello {font-family:roboto_condensedregular;
 		font-size:16px;}
 
+#linklogo {float:left;}
+
+#linklogo img {width:30px;
+				margin:8px 8px 0px 0px;}
+
 /* -------------------- slider -------------------------- */
 
     .slidesjs-pagination li a {
